@@ -1,0 +1,8 @@
+{
+  "name": "Somos x Tissot Pitch Deck",
+  "description": "Interactive pitch presentation for Tissot in-store activations, featuring AI concepts and strategic insights.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

@@ -3,7 +3,7 @@ import { GoogleGenAI, Modality } from "@google/genai";
 // Initialize Gemini Client
 // In a real production app, you would proxy this or handle keys more securely.
 // For this pitch deck demo, we use the env variable as instructed.
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
+const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_API_KEY });
 
 export const generateCyclingCommentary = async (
   playerName: string,
